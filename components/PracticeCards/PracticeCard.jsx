@@ -10,7 +10,7 @@ const PracticeCard = ({ card }) => {
           <div className=" gap-3 p-3">{icon}</div>
           <div className=" p-3">
             <h1 className="font-bold text-gray-800 text-xl pb-1">{title}</h1>
-            <p className="text-gray-900 ">{description}</p>
+            <p className="text-gray-800 tracking-tight">{description}</p>
           </div>
         </div>
       </div>
