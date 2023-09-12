@@ -27,7 +27,7 @@ const NavBar = () => {
         </div>
       </div>
       <div className="mx-10">
-        <div class="grid grid-cols-12 gap-4">
+        <div className="grid grid-cols-12 gap-4">
           <div className="col-span-3 lg:col-span-4">
             <img className="w-[220px]" src="/assets/logo.png" alt="" />
           </div>
