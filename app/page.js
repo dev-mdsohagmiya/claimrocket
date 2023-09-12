@@ -4,6 +4,7 @@ import LeftImgCard from "@/components/MiddleCard/LeftImgCard";
 import RightImgCard from "@/components/MiddleCard/RightImgCard";
 import NavBar from "@/components/Navber";
 import PracticeCards from "@/components/PracticeCards/PracticeCards";
+import Reviews from "@/components/Reviews/Reviews";
 import Image from "next/image";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <LeftImgCard />
       <RightImgCard />
       <BottomCard />
+      <Reviews />
     </div>
   );
 }

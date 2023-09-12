@@ -8,11 +8,18 @@
   background-color: white;
 }
 
-body {
-  background-color: black;
+.swiper {
+  width: 100%;
+  height: 100%;
 }
 
-#n-contract {
-  background-color: black;
-  color: white;
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
