@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { HiMail } from "react-icons/hi";
 import { BsFillTelephoneFill } from "react-icons/bs";
+import Link from "next/link";
 const NavBar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
@@ -12,7 +13,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav id="nav">
+    <nav id="nav" className="fixed w-full">
       <div id="n-contract">
         <div className="mx-10 py-2">
           <ul>
@@ -29,19 +30,37 @@ const NavBar = () => {
       <div className="mx-10">
         <div className="grid grid-cols-12 gap-4">
           <div className="col-span-3 lg:col-span-4">
-            <img className="w-[220px]" src="/assets/logo.png" alt="" />
+            <Link href={"/"}>
+              <img className="w-[220px]" src="/assets/logo.png" alt="" />
+            </Link>
           </div>
           <div className="col-span-9 lg:col-span-8 text-end">
             <ul className="mt-[10px] ">
-              <li className="inline-block mx-2 lg:mx-3  text-base">HOME</li>
-              <li className="inline-block mx-2 lg:mx-3  text-base">BLOGS</li>
               <li className="inline-block mx-2 lg:mx-3  text-base">
-                CONTACT US
+                <Link href={"/"}>HOME</Link>
               </li>
-              <li className="inline-block mx-3 lg:mx-2  text-base">
-                <button className="bg-[#E02B20] text-white px-6 py-2">
-                  LAUNCH YOUR CLAIM
-                </button>
+              <li className="inline-block mx-2 lg:mx-3  text-base">
+                <Link href={"/blogs"}>BLOGS</Link>
+              </li>
+              <li className="inline-block mx-2 lg:mx-3  text-base">
+                <Link href={"/contact"}> CONTACT US</Link>
+              </li>
+              <li className="inline-block mx-3 lg:mx-2  text-base hover:scale-105 duration-300">
+                <Link href={"login"}> LOGIN</Link>
+              </li>
+              <li className="inline-block mx-3 lg:mx-2  text-base hover:scale-105 duration-300">
+                <Link href={"/register"}>
+                  <button className="bg-[#E02B20] text-white px-6 py-2">
+                    REGISTER
+                  </button>
+                </Link>
+              </li>
+              <li className="inline-block mx-3 lg:mx-2  text-base hover:scale-105 duration-300">
+                <Link href={"/about"}>
+                  <button className="bg-[#E02B20] text-white px-6 py-2 ">
+                    LAUNCH YOUR CLAIM
+                  </button>
+                </Link>
               </li>
             </ul>
           </div>

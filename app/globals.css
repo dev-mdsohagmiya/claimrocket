@@ -8,11 +8,12 @@
   background-color: white;
 }
 
-body {
-  background-color: black;
-}
-
 #n-contract {
   background-color: black;
   color: white;
+}
+
+#login {
+  font-family: "Roboto Condensed", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: bold;
 }
