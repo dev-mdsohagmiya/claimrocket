@@ -32,7 +32,7 @@ const NavBar = () => {
             <img className="w-[220px]" src="/assets/logo.png" alt="" />
           </div>
           <div className="col-span-9 lg:col-span-8 text-end">
-            <ul className="mt-[10px] hidden">
+            <ul className="mt-[10px] ">
               <li className="inline-block mx-2 lg:mx-3  text-base">HOME</li>
               <li className="inline-block mx-2 lg:mx-3  text-base">BLOGS</li>
               <li className="inline-block mx-2 lg:mx-3  text-base">
