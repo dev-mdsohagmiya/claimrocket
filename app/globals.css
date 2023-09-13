@@ -6,6 +6,7 @@
   font-family: "Roboto Condensed", Helvetica, Arial, Lucida, sans-serif;
   font-weight: bold;
   background-color: white;
+  border-bottom: 2px solid black;
 }
 
 .swiper {

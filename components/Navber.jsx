@@ -13,7 +13,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav id="nav" className="fixed w-full">
+    <nav id="nav" className="fixed w-full z-20">
       <div id="n-contract">
         <div className="mx-10 py-2">
           <ul>
