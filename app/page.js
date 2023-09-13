@@ -10,14 +10,29 @@ import Reviews from "@/components/Reviews/Reviews";
 
 export default function Home() {
   return (
-    <div className="bg-white">
+    <div className="bg-white ">
       <Hero />
-      <PracticeCards />
+      <div className="container mx-auto">
+        {" "}
+        <PracticeCards />
+      </div>
       <LeftImgCard />
-      <RightImgCard />
-      <BottomCard />
-      <Reviews />
-      <Accordions />
+      <div className="container mx-auto">
+        {" "}
+        <RightImgCard />
+      </div>
+      <div className="">
+        {" "}
+        <BottomCard />
+      </div>
+      <div className="container mx-auto">
+        <div>
+          <Reviews />
+        </div>
+      </div>
+      <div className="container mx-auto">
+        <Accordions />
+      </div>
       <Footer />
     </div>
   );

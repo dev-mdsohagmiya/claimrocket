@@ -68,21 +68,23 @@ const practiceCards = [
 
 const PracticeCards = () => {
   return (
-    <div className="py-12 bg-white relative mx-[45px] md:mx-[130px] min-h-screen ">
-      <h1 className="text-center tracking-widest pb-4 md:text-base text-sm">
-        PERSONAL INJURY{" "}
-      </h1>
-      <h2 className="text-center text-base md:text-3xl font-bold text-gray-800 pb-6">
-        Practice Areas
-      </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2  gap-x-10 gap-y-6 py-6">
-        {practiceCards.map((card) => {
-          return (
-            <div key={card.id}>
-              <PracticeCard card={card} />
-            </div>
-          );
-        })}
+    <div className="py-12 bg-white relative  md:mx-[140px] min-h-screen ">
+      <div className="">
+        <h1 className="text-center tracking-widest pb-4 md:text-base text-sm">
+          PERSONAL INJURY{" "}
+        </h1>
+        <h2 className="text-center text-base md:text-3xl font-bold text-gray-800 pb-6">
+          Practice Areas
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2  gap-x-10 gap-y-6 py-6">
+          {practiceCards.map((card) => {
+            return (
+              <div key={card.id}>
+                <PracticeCard card={card} />
+              </div>
+            );
+          })}
+        </div>
       </div>
     </div>
   );
