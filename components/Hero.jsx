@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 import React, { useEffect } from "react";
 import { FaTrophy, FaHandHoldingMedical } from "react-icons/fa";
 import { IoIosPeople } from "react-icons/io";
+import Link from "next/link";
 
 const Hero = () => {
   useEffect(() => {
@@ -47,9 +48,11 @@ const Hero = () => {
                   rocket.
                 </p>
                 <div className=" pt-4 flex flex-col lg:flex-row gap-4">
-                  <button className="bg-red-700 p-2 font-bold hover:scale-105  transform transition-transform ">
-                    LAUNCH YOUR CLAIM
-                  </button>
+                  <Link href={"/claim"}>
+                    <button className="bg-red-700 p-2 font-bold hover:scale-105  transform transition-transform ">
+                      LAUNCH YOUR CLAIM
+                    </button>
+                  </Link>
 
                   <button className="bg-red-700 py-2 px-[14px] font-bold  ml-0 mt-4 md:mt-0 hover:scale-105  transform transition-transform ">
                     CALL (866) ROCKET8
