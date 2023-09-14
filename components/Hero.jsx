@@ -12,14 +12,15 @@ const Hero = () => {
   }, []);
   return (
     <div
-      className={`min-h-screen bg-cover bg-center relative  bg-black h-[1550px] sm:h-[1300px] md:h-[1700px] lg:h-[1200px] `}
+      className={`min-h-screen bg-cover bg-center relative  bg-black h-[1550px] sm:h-[1400px] md:h-[1800px] lg:h-[1300px] `}
     >
-      <div className="container mx-auto">
+      <div className="container mx-auto pt-[130px]">
         {/* Background Image  */}
         <Image
           src={"/assets/herobg.png"}
           fill
-          className={` min-h-screen items-center absolute inset-0 bg-black opacity-100 top-[60px] object-fit`}
+          alt=""
+          className={` min-h-screen  items-center absolute inset-0 bg-black opacity-100 top-[60px] object-fit`}
         />
         <div className="relative inset-0 flex flex-col items-center top-20 md:top-48 md:mx-[130px] mx-[45px]">
           {/* Hero upper part  */}
@@ -29,7 +30,13 @@ const Hero = () => {
                 <p className=" font-bold text-base md:text-xl pb-5 tracking-widest">
                   FREE CASE CONSULTATION 24/7
                 </p>
-                <img src={"/assets/heroLogo.png"} alt="" className=" flex" />
+                <Image
+                  src={"/assets/heroLogo.png"}
+                  alt=""
+                  className=" flex "
+                  height={"200"}
+                  width={"600"}
+                />
               </div>
               <div>
                 <p className="md:text-xl text-base tracking-normal md:leading-9  font-light">

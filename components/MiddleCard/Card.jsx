@@ -2,6 +2,7 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Image from "next/image";
 
 const Card = ({
   backgroundInfo,
@@ -29,9 +30,11 @@ const Card = ({
       <div
         className={`flex  ${direction}  items-center justify-center py-12 gap-24 `}
       >
-        <img
+        <Image
           src={`${imgFile}`}
           alt={`${alt}`}
+          width={"200"}
+          height={"200"}
           className={`  ${imgWidth} w-auto h-auto ${imgHeight} ${roundedProperty} max-w-full`}
           data-aos={animationData}
         />

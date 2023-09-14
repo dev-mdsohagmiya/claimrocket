@@ -5,6 +5,7 @@ import { useState } from "react";
 import { HiMail } from "react-icons/hi";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import Link from "next/link";
+
 const NavBar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
@@ -31,7 +32,13 @@ const NavBar = () => {
         <div className="grid grid-cols-12 gap-4">
           <div className="col-span-3 lg:col-span-4">
             <Link href={"/"}>
-              <img className="w-[220px]" src="/assets/logo.png" alt="" />
+              <Image
+                height={"100"}
+                width={"220"}
+                className="w-[220px]"
+                src="/assets/logo.png"
+                alt=""
+              />
             </Link>
           </div>
           <div className="col-span-9 lg:col-span-8 text-end">
@@ -56,7 +63,7 @@ const NavBar = () => {
                 </Link>
               </li>
               <li className="inline-block mx-3 lg:mx-2  text-base hover:scale-105 duration-300">
-                <Link href={"/about"}>
+                <Link href={"/claim"}>
                   <button className="bg-[#E02B20] text-white px-6 py-2 ">
                     LAUNCH YOUR CLAIM
                   </button>

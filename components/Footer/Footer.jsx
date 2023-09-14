@@ -11,23 +11,26 @@ const Footer = () => {
         {/* Background Image  */}
         <Image
           src={"/assets/herobg.png"}
+          alt=""
           fill
           className={` min-h-screen items-center absolute inset-0 bg-black opacity-100  `}
         />
         <div className=" relative flex flex-col items-center justify-center  py-8">
           <div className=" md:w-[370px] md:h-[70px] w-[270px] h-[45px] my-14">
-            <img
+            <Image
               src={"/assets/heroLogo.png"}
               alt="Logo"
+              height={"200"}
+              width={"300"}
               className="w-full h-full object-fill"
             />
           </div>
           <div className=" flex flex-col md:flex-row pb-7">
-            <button className="bg-red-700 p-2 font-bold hover:scale-105  transform transition-transform ">
+            <button className="bg-red-700 p-2 font-bold hover:scale-105 text-white  transform transition-transform ">
               LAUNCH YOUR CLAIM
             </button>
 
-            <button className="bg-red-700 py-2 px-[14px] font-bold md:ml-10 ml-0 mt-4 md:mt-0 hover:scale-105  transform transition-transform ">
+            <button className="bg-red-700 py-2 px-[14px] font-bold text-white md:ml-10 ml-0 mt-4 md:mt-0 hover:scale-105  transform transition-transform ">
               CALL (866) ROCKET8
             </button>
           </div>
