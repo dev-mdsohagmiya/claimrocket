@@ -57,7 +57,7 @@ const Footer = () => {
                   href="/contact"
                 />
               </li>
-              <li className="inline-block mx-3 lg:mx-2  text-base hover:scale-105 duration-300">
+              <li className="text-center block md:inline-block  mx-3 lg:mx-2  text-base hover:scale-105 duration-300">
                 <NavLink
                   className="uppercase"
                   activeClasses="text-red-600"
