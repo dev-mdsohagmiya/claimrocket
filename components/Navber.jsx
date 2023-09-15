@@ -107,7 +107,7 @@ const NavBar = () => {
       </div>
       {/* naviotion */}
       <div
-        className={`duration-500 absolute top-0 h-[100vh] bg-white w-[90%]  ${
+        className={`duration-500 absolute top-0 h-[100vh] bg-white border-r-2 border-black w-[90%]  ${
           isNavOpen ? "translate-x-[0]" : "-translate-x-[100%]"
         }`}
       >
