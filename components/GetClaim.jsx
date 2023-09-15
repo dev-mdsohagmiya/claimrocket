@@ -1,10 +1,10 @@
 import React from "react";
 
-export default function () {
+export default function GetClaim() {
   return (
     <>
       <div id="login" className="bg-black pt-40 pb-20 h-[100vh]">
-        <div className="container mx-auto px-4 max-w-2xl">
+        <div className="container mx-auto px-4 max-w-2xl mt-[60px]">
           <div className="text-center py-3">
             <h2 className="text-[35px] md:text-[45px]   text-white">
               Time is on Your Side: Free Watch Offer

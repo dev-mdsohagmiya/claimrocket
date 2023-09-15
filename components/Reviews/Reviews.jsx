@@ -61,9 +61,10 @@ const Reviews = () => {
                 <p className="  text-gray-900  text-sm">Jhon doe</p>
               </div>
               <p className="text-sm font-light text-black text-start">
+                {`
                 "I was bitten by a neighbor's dog and didn't know where to turn.
                 Claim Rocket was empathetic and professional. Their expertise
-                led to a settlement that covered all my medical expenses."
+                led to a settlement that covered all my medical expenses."`}
               </p>
               <p className="flex items-center justify-cneter mt-1">{stars}</p>
             </div>
@@ -75,9 +76,11 @@ const Reviews = () => {
                 <p className="  text-gray-900  text-sm">Jhon doe</p>
               </div>
               <p className="text-sm font-light text-black text-start">
+                {`
                 "I was bitten by a neighbor's dog and didn't know where to turn.
                 Claim Rocket was empathetic and professional. Their expertise
                 led to a settlement that covered all my medical expenses."
+          `}
               </p>
               <p className="flex items-center justify-cneter mt-1">{stars}</p>
             </div>
@@ -89,9 +92,10 @@ const Reviews = () => {
                 <p className="  text-gray-900  text-sm">Jhon doe</p>
               </div>
               <p className="text-sm font-light text-black text-start">
+                {`
                 "I was bitten by a neighbor's dog and didn't know where to turn.
                 Claim Rocket was empathetic and professional. Their expertise
-                led to a settlement that covered all my medical expenses."
+                led to a settlement that covered all my medical expenses."`}
               </p>
               <p className="flex items-center justify-cneter mt-1">{stars}</p>
             </div>
@@ -103,9 +107,11 @@ const Reviews = () => {
                 <p className="  text-gray-900  text-sm">Jhon doe</p>
               </div>
               <p className="text-sm font-light text-black text-start">
+                {`
                 "I was bitten by a neighbor's dog and didn't know where to turn.
                 Claim Rocket was empathetic and professional. Their expertise
                 led to a settlement that covered all my medical expenses."
+               `}
               </p>
               <p className="flex items-center justify-cneter mt-1">{stars}</p>
             </div>
@@ -117,9 +123,10 @@ const Reviews = () => {
                 <p className="  text-gray-900  text-sm">Jhon doe</p>
               </div>
               <p className="text-sm font-light text-black text-start">
+                {`
                 "I was bitten by a neighbor's dog and didn't know where to turn.
                 Claim Rocket was empathetic and professional. Their expertise
-                led to a settlement that covered all my medical expenses."
+                led to a settlement that covered all my medical expenses."`}
               </p>
               <p className="flex items-center justify-cneter mt-1">{stars}</p>
             </div>
@@ -131,9 +138,10 @@ const Reviews = () => {
                 <p className="  text-gray-900  text-sm">Jhon doe</p>
               </div>
               <p className="text-sm font-light text-black text-start">
+                {`
                 "I was bitten by a neighbor's dog and didn't know where to turn.
                 Claim Rocket was empathetic and professional. Their expertise
-                led to a settlement that covered all my medical expenses."
+                led to a settlement that covered all my medical expenses."`}
               </p>
               <p className="flex items-center justify-cneter mt-1">{stars}</p>
             </div>
@@ -145,9 +153,10 @@ const Reviews = () => {
                 <p className="  text-gray-900  text-sm">Jhon doe</p>
               </div>
               <p className="text-sm font-light text-black text-start">
+                {`
                 "I was bitten by a neighbor's dog and didn't know where to turn.
                 Claim Rocket was empathetic and professional. Their expertise
-                led to a settlement that covered all my medical expenses."
+                led to a settlement that covered all my medical expenses."`}
               </p>
               <p className="flex items-center justify-cneter mt-1">{stars}</p>
             </div>
@@ -159,9 +168,10 @@ const Reviews = () => {
                 <p className="  text-gray-900  text-sm">Jhon doe</p>
               </div>
               <p className="text-sm font-light text-black text-start">
+                {`
                 "I was bitten by a neighbor's dog and didn't know where to turn.
                 Claim Rocket was empathetic and professional. Their expertise
-                led to a settlement that covered all my medical expenses."
+                led to a settlement that covered all my medical expenses."`}
               </p>
               <p className="flex items-center justify-cneter mt-1">{stars}</p>
             </div>

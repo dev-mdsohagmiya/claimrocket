@@ -1,9 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 #nav {
-  font-family: "Roboto Condensed", Helvetica, Arial, Lucida, sans-serif;
+  font-family: "Roboto Slab", serif;
   font-weight: bold;
   background-color: white;
   border-bottom: 2px solid black;
@@ -34,6 +35,10 @@
   align-items: center;
 }
 
+#blogs {
+  background-color: black;
+  height: 100vh;
+}
 #login {
   font-family: "Roboto Condensed", Helvetica, Arial, Lucida, sans-serif;
   font-weight: bold;

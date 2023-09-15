@@ -68,7 +68,7 @@ const practiceCards = [
 
 const PracticeCards = () => {
   return (
-    <div className="py-12 bg-white relative  md:mx-[140px] min-h-screen ">
+    <div className="py-12 mx-[45px] bg-white relative  md:mx-[140px]  ">
       <div className="">
         <h1 className="text-center tracking-widest pb-4 md:text-base text-sm">
           PERSONAL INJURY{" "}
