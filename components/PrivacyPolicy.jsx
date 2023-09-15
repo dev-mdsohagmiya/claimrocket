@@ -17,7 +17,7 @@ const PrivacyPolicy = () => {
           and maintaining the confidentiality of your personal information. This
           Privacy Policy explains how we collect, use, share, and protect your
           personal data when you use our services, website, and related
-          applications (collectively referred to as the "Services"). By
+          applications (collectively referred to as the {`"Services"`}). By
           accessing or using our Services, you consent to the practices
           described in this Privacy Policy.
         </p>
