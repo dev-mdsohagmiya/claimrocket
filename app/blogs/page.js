@@ -30,7 +30,7 @@ Duis malesuada orci arcu, at lacinia enim condimentum sed. Pellentesque habitant
   },
   {
     id: 3,
-    title: "Blog Post 2",
+    title: "Know where to find you lawyer",
     author: "Sohag Miya",
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tincidunt lacus neque, et dictum nibh porttitor ac. Quisque eros turpis, sodales ut lacus sit amet, dictum condimentum ligula. Nam luctus sem a ex euismod elementum. Integer malesuada magna at leo dapibus molestie. In dignissim mauris eget lectus dapibus tincidunt. Nunc eleifend laoreet ligula nec pharetra. Pellentesque iaculis nulla elit, id fringilla est faucibus eu. Nam purus neque, pulvinar quis lorem ut, commodo rhoncus urna. Sed semper nunc nec erat tristique viverra. <br/>
 
@@ -57,7 +57,7 @@ Duis malesuada orci arcu, at lacinia enim condimentum sed. Pellentesque habitant
   },
   {
     id: 2,
-    title: "Blog Post 2",
+    title: "Know where to find you lawyer",
     author: "Sohag Miya",
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tincidunt lacus neque, et dictum nibh porttitor ac. Quisque eros turpis, sodales ut lacus sit amet, dictum condimentum ligula. Nam luctus sem a ex euismod elementum. Integer malesuada magna at leo dapibus molestie. In dignissim mauris eget lectus dapibus tincidunt. Nunc eleifend laoreet ligula nec pharetra. Pellentesque iaculis nulla elit, id fringilla est faucibus eu. Nam purus neque, pulvinar quis lorem ut, commodo rhoncus urna. Sed semper nunc nec erat tristique viverra. <br/>
 
