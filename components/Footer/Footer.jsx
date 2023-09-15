@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div>
       <div
-        className={` bg-cover bg-center relative  bg-black  md:px-[130px] px-[45px] py-12`}
+        className={` bg-cover bg-center relative  bg-black  md:px-[130px] mx-[45px] py-12`}
       >
         {/* Background Image  */}
 
