@@ -66,7 +66,7 @@ const Footer = () => {
                 />
               </li>
               <li className=" text-center block md:inline-block mx-2">
-                <Link href="/privary-policy" className="tex-white">
+                <Link href="/privacy-policy" className="tex-white">
                   PRIVACY POLICY
                 </Link>
               </li>
