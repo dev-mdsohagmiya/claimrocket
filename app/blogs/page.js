@@ -6,13 +6,13 @@ const Blog = () => {
     {
       title: "Blog Post 1",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      imageUrl: "https://picsum.photos/id/237/200/300", // Replace with your image path
+      imageUrl: "", // Replace with your image path
       date: "September 1, 2023",
     },
     {
       title: "Blog Post 2",
       description: "Pellentesque ac ligula in tellus tristique hendrerit.",
-      imageUrl: "https://picsum.photos/id/237/201/300", // Replace with your image path
+      imageUrl: "", // Replace with your image path
       date: "August 25, 2023",
     },
     // Add more blog data as needed
