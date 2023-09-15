@@ -13,7 +13,7 @@ const Hero = () => {
   }, []);
   return (
     <div
-      className={`min-h-screen bg-cover bg-center relative  bg-black h-[1650px] sm:h-[1400px] md:h-[1800px] lg:h-[1300px] `}
+      className={`min-h-screen bg-cover bg-center relative  bg-black h-[1660px] sm:h-[1400px] md:h-[1800px] lg:h-[1300px] `}
     >
       <div className="container mx-auto pt-[130px]">
         {/* Background Image  */}
