@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 // components/NavBar.js
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { HiMail } from "react-icons/hi";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { HiMiniBars3CenterLeft } from "react-icons/hi2";
@@ -20,6 +20,10 @@ const NavBar = () => {
       setIsNavOpen(true);
     }
   };
+  useEffect(() => {
+    console.log("hello i am from hello");
+    setIsNavOpen(false);
+  }, []);
 
   return (
     <nav id="nav" className="fixed w-full z-20">
