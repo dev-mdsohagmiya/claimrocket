@@ -130,7 +130,7 @@ const NavBar = () => {
                   </Link>
                 </div>
               </div>
-              <div className="flex justify-end">
+              <div className="flex justify-end ">
                 <div className="text-end m-5">
                   <IoClose
                     onClick={handleToggle}
@@ -140,7 +140,10 @@ const NavBar = () => {
               </div>
             </div>
             <ul className="mt-[66px] ">
-              <li className="block mx-2 lg:mx-3  text-base text-center py-2">
+              <li
+                className="block mx-2 lg:mx-3  text-base text-center py-2"
+                onClick={handleToggle}
+              >
                 <NavLink
                   className="uppercase text-black"
                   activeClasses="text-red-600"
@@ -149,7 +152,10 @@ const NavBar = () => {
                 />
               </li>
               <hr />
-              <li className="block mx-2 lg:mx-3  text-base text-center py-2">
+              <li
+                className="block mx-2 lg:mx-3  text-base text-center py-2"
+                onClick={handleToggle}
+              >
                 <NavLink
                   className="uppercase"
                   activeClasses="text-red-600"
@@ -158,7 +164,10 @@ const NavBar = () => {
                 />
               </li>
               <hr />
-              <li className="block mx-2 lg:mx-3  text-base text-center py-2">
+              <li
+                className="block mx-2 lg:mx-3  text-base text-center py-2"
+                onClick={handleToggle}
+              >
                 <NavLink
                   className="uppercase"
                   activeClasses="text-red-600"
@@ -167,7 +176,10 @@ const NavBar = () => {
                 />
               </li>
               <hr />
-              <li className="block mx-3 lg:mx-2  text-base hover:scale-105 duration-300 text-center py-2">
+              <li
+                className="block mx-3 lg:mx-2  text-base hover:scale-105 duration-300 text-center py-2"
+                onClick={handleToggle}
+              >
                 <NavLink
                   className="uppercase"
                   activeClasses="text-red-600"
@@ -176,7 +188,10 @@ const NavBar = () => {
                 />
               </li>
               <hr />
-              <li className="text-center mt-5 block mx-3 lg:mx-2  text-base hover:scale-105 duration-300">
+              <li
+                className="text-center mt-5 block mx-3 lg:mx-2  text-base hover:scale-105 duration-300"
+                onClick={handleToggle}
+              >
                 <NavLink
                   className="uppercase "
                   activeClasses="text-red-600 bg-gray-900 px-6 py-[10px]"
@@ -186,7 +201,10 @@ const NavBar = () => {
                 />
               </li>
 
-              <li className="text-center mt-5 block mx-3 lg:mx-2  text-base hover:scale-105 duration-300">
+              <li
+                className="text-center mt-5 block mx-3 lg:mx-2  text-base hover:scale-105 duration-300"
+                onClick={handleToggle}
+              >
                 <NavLink
                   className="uppercase "
                   activeClasses="text-red-600 bg-gray-900 px-6 py-[10px]"
