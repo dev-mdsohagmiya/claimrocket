@@ -5,7 +5,7 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 function Register() {
   return (
     <>
-      <div id="login" className="bg-black pt-40 pb-20">
+      <div id="login" className="bg-black pt-40 pb-20 ">
         <div className="container mx-auto px-4 max-w-2xl">
           <div className="text-center py-3">
             <h2 className="text-[35px] md:text-[45px]  text-white">
