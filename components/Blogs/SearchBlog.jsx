@@ -12,7 +12,7 @@ const SearchBlog = ({ onSearch }) => {
     onSearch(query);
   };
   return (
-    <div className="bg-gray-900 pt-4 pb-2 px-4 mb-6 rounded-md">
+    <div className="bg-[#1c1c1c] pt-4 pb-2 px-4 mb-6 rounded-md">
       <h1 className="text-2xl font-semibold text-red-500">Search Blogs</h1>
       <form onSubmit={handleSearch}>
         <input

@@ -16,9 +16,9 @@ const page = ({ params }) => {
   console.log(matchedBlog.description);
   return (
     <div className=" py-[80px]  md:py-[130px] px-[20px] md:px-[50px] relative grid grid-cols-1 md:grid-cols-12 gap-12 ">
-      <div className="bg-gray-900 min-h-screen rounded-sm   py-10  px-10 md:px-[60px] col-span-8 ">
+      <div className="bg-[#1c1c1c] min-h-screen rounded-sm   py-10  px-10 md:px-[60px] col-span-8 ">
         <div>
-          <h1 className="text-3xl font-semibold italic text-gray-300 text-start">
+          <h1 className="text-3xl font-semibold  text-gray-300 text-start">
             {matchedBlog.title}
           </h1>
           <div className=" mt-8">

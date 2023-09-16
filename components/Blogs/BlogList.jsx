@@ -6,7 +6,7 @@ import { BsArrowRightCircle } from "react-icons/bs";
 
 const BlogList = () => {
   return (
-    <div className="bg-gray-800 rounded-md p-8  ">
+    <div className="bg-[#1c1c1c] rounded-md p-8  ">
       <h1 className="pb-2 text-xl font-bold text-red-500">Latest post</h1>
       {blogData.map((blog) => {
         return (

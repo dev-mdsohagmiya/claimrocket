@@ -5,7 +5,7 @@ import React from "react";
 const ShowSearchBlog = ({ searchResults }) => {
   return (
     <div>
-      <div className="bg-gray-800 rounded-md my-6 grid grid-cols-2 gap-2">
+      <div className="bg-[#1c1c1c] rounded-md my-6 grid grid-cols-2 gap-2">
         {searchResults.map((blog) => (
           <div key={blog.id}>
             <Link href={`${blog.id}`}>
