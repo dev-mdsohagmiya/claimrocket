@@ -3,6 +3,9 @@ import { LuMail } from "react-icons/lu";
 import { HiMail } from "react-icons/hi";
 import { BsFillTelephoneFill } from "react-icons/bs";
 function ContactUS() {
+  const handleForm = (e) => {
+    e.preventDefault();
+  };
   return (
     <>
       <div id="login" className="bg-black pt-40 pb-20 ">
@@ -15,7 +18,7 @@ function ContactUS() {
               Have a Question? Send Us a Message
             </h2>
           </div>
-          <form>
+          <form onSubmit={handleForm}>
             <div className=" grid grid-cols-12">
               <div className=" col-span-12 lg:col-span-12 md:mx-4 bg-[#1c1c1c]  ">
                 <div className="md:mx-4 p-5 md:p-10">
