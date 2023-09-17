@@ -1,10 +1,20 @@
+"use client";
 import { FaSkype } from "react-icons/fa";
 import { LuMail } from "react-icons/lu";
 import { HiMail } from "react-icons/hi";
 import { BsFillTelephoneFill } from "react-icons/bs";
+import { useState } from "react";
 function UserLogin() {
+  const [userData, setUserData] = useState({
+    email: " ",
+    password: "",
+  });
   const handleForm = (e) => {
     e.preventDefault();
+    setUserData({
+      email: " ",
+      password: "",
+    });
   };
   return (
     <>
@@ -33,6 +43,10 @@ function UserLogin() {
                       <input
                         type="email"
                         className="py-4  border-1 border-[#757575] border w-full focus:outline-none  focus:border-[#E02B20]   bg-[#1c1c1c] text-white text-[18px] px-2"
+                        value={userData.email}
+                        onChange={(e) =>
+                          setUserData({ ...userData, email: e.target.value })
+                        }
                       />
                     </div>
                     <div className="py-3">
@@ -45,6 +59,10 @@ function UserLogin() {
                       <input
                         type="password"
                         className="py-4  border-1 border-[#757575] focus:outline-none  focus:border-[#E02B20]  border w-full bg-[#1c1c1c] text-white text-[18px] px-2"
+                        value={userData.password}
+                        onChange={(e) =>
+                          setUserData({ ...userData, password: e.target.value })
+                        }
                       />
                     </div>
 
