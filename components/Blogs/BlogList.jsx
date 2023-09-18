@@ -8,9 +8,9 @@ const BlogList = () => {
   return (
     <div className="bg-[#1c1c1c] rounded-md p-8  ">
       <h1 className="pb-2 text-xl font-bold text-red-500">Latest post</h1>
-      {blogData.map((blog) => {
+      {blogData.map((blog, index) => {
         return (
-          <div>
+          <div key={index}>
             <div className="py-1 text-white">
               <h1 className="flex items-center gap-3">
                 <span className="text-white">

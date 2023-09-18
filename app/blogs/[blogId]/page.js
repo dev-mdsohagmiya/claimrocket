@@ -53,7 +53,7 @@ const page = ({ params }) => {
               <div className="mt-8 text-white text-base ">
                 {...matchedBlog.description.map((desc, i) => {
                   return (
-                    <div className="my-3">
+                    <div className="my-3" key={Date.now()}>
                       <p
                         className={`${
                           i === 0
