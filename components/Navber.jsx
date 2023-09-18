@@ -79,23 +79,7 @@ const NavBar = () => {
                   href="/contact"
                 />
               </li>
-              <li className="inline-block mx-3 lg:mx-2  text-base hover:scale-105 duration-300">
-                <NavLink
-                  className="uppercase"
-                  activeClasses="text-red-600"
-                  text="LOGIN"
-                  href="/login"
-                />
-              </li>
-              <li className="inline-block mx-3 lg:mx-2  text-base hover:scale-105 duration-300">
-                <NavLink
-                  className="uppercase "
-                  activeClasses="text-red-600 bg-gray-900 px-6 py-[10px]"
-                  dClass={"bg-[#E02B20] text-white px-6 py-[10px]"}
-                  text="REGISTER"
-                  href="/register"
-                />
-              </li>
+
               <li className="inline-block mx-3 lg:mx-2  text-base hover:scale-105 duration-300">
                 <NavLink
                   className="uppercase "
@@ -176,30 +160,6 @@ const NavBar = () => {
                 />
               </li>
               <hr />
-              <li
-                className="block mx-3 lg:mx-2  text-base hover:scale-105 duration-300 text-center py-2"
-                onClick={handleToggle}
-              >
-                <NavLink
-                  className="uppercase"
-                  activeClasses="text-red-600"
-                  text="LOGIN"
-                  href="/login"
-                />
-              </li>
-              <hr />
-              <li
-                className="text-center mt-5 block mx-3 lg:mx-2  text-base hover:scale-105 duration-300"
-                onClick={handleToggle}
-              >
-                <NavLink
-                  className="uppercase "
-                  activeClasses="text-red-600 bg-gray-900 px-6 py-[10px]"
-                  dClass={"bg-[#E02B20] text-white px-6 py-[10px]"}
-                  text="REGISTER"
-                  href="/register"
-                />
-              </li>
 
               <li
                 className="text-center mt-5 block mx-3 lg:mx-2  text-base hover:scale-105 duration-300"
