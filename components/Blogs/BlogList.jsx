@@ -11,9 +11,9 @@ const BlogList = () => {
       {blogData.map((blog) => {
         return (
           <div>
-            <div className="py-1">
+            <div className="py-1 text-white">
               <h1 className="flex items-center gap-3">
-                <span className="text-gray-300">
+                <span className="text-white">
                   <BsArrowRightCircle />
                 </span>
                 <Link href={`${blog.id}`}>
